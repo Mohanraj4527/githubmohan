@@ -11,7 +11,7 @@ form=cgi.Fieldstorage()
 name=form.getvalue("Name")
 product=form.getvalue("Product")
 
-print("<h1>Name,Product,</h1>")
+print("<h1>Name,Product</h1>")
 
 mydb=mysql.connector.connect(
     host="localhost",
