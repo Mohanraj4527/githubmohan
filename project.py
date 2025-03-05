@@ -5,7 +5,7 @@ import mysql.connector
 print("Content-type: text/html/n/n")
 print("<html>")
 print("<body>")
-print("<h1>"Thank You for ordering"</h1>")
+print("<h1>Thank You for ordering</h1>")
 
 form=cgi.Fieldstorage()
 name=form.getvalue("Name")
